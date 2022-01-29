@@ -1,0 +1,19 @@
+# virtualenv
+.venv/
+
+# vscode settings
+.vscode/
+
+# python __pycache__
+**/__pycache__
+
+# data
+data.sqlite
+
+# test
+test/
+
+# pyinstaller
+build/
+dist/
+*.spec
