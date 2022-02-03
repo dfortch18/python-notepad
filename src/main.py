@@ -269,7 +269,7 @@ def close_window(content):
 while True:
     event, values = window.read(timeout=1)
 
-    if event in (sg.WIN_CLOSE_ATTEMPTED_EVENT, "Salir (CTRL+SHIFT+Q)", "CTRL+SHIFT-Q"):
+    if event in (sg.WIN_CLOSE_ATTEMPTED_EVENT, "Exit (CTRL+SHIFT+Q)", "CTRL+SHIFT-Q"):
         close = close_window(values["-TEXT-"])
 
         if close:
