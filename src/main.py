@@ -49,7 +49,7 @@ def new_file():
     global editing
 
     if editing:
-        question = sg.popup_yes_no(f"Do you want to exit without saving changes to this file?", title="Cambios sin guardar")
+        question = sg.popup_yes_no(f"Do you want to exit without saving changes to this file?", title="Unsaved changes")
 
         if question == "Yes":
             current_file = None
