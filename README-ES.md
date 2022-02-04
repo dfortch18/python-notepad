@@ -1,7 +1,9 @@
 # Python Notepad
 Este es un bloc de notas simple escrito en python usando [PySimpleGUI](https://pypi.org/project/PySimpleGUI/)
 
-![Captura](./images/screenshot.png)
+![Demostración](images/demonstration.gif)
+
+Todas las capturas de pantalla estan en [screenshots.md](screenshots.md)
 
 # Instalación
 ```

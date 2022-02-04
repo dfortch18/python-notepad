@@ -1,7 +1,9 @@
 # Python Notepad
 This is a simple notepad written in python using [PySimpleGUI](https://pypi.org/project/PySimpleGUI/)
 
-![Screenshot](./images/screenshot.png)
+![Demonstration](images/demonstration.gif)
+
+All screenshots are in [screenshots.md](screenshots.md)
 
 # Install
 ```
