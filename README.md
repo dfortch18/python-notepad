@@ -27,3 +27,6 @@ pyinstaller --add-data src/assets/icon.png;assets src/main.py --windowed
 ```
 pyinstaller --add-data 'src/assets/icon.png:assets' src/main.py
 ```
+
+# PyInstaller alternative
+If you don't like to use a lot of commands, you can use [psgcompiler](https://github.com/PySimpleGUI/psgcompiler) to compile the program using a simple interface
