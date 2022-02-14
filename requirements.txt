@@ -1,6 +1,4 @@
 altgraph==0.17.2
-pyinstaller==4.8
+pyinstaller==4.9
 pyinstaller-hooks-contrib==2022.0
 PySimpleGUI==4.56.0
-python-dateutil==2.8.2
-six==1.16.0

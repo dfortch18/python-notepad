@@ -9,6 +9,7 @@
 
 # data
 data.sqlite
+src/data/config.json
 
 # test
 test/
