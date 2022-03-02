@@ -257,7 +257,7 @@ def open_preferences_window():
 
         if event == "-APP_THEME_OK-":
             database.set_theme(preferences_window["-APP_THEME-"].get()[0])
-            sg.popup_ok("Los cambios se aplicarán al reiniciar el editor")
+            sg.popup_ok("Changes will be applied when restarting the editor")
     preferences_window.close()
     preferences_window = None
 
